@@ -1,0 +1,11 @@
+.primary-color {
+  background: #780000
+}
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.column {
+  flex: 1;
+  padding: 16px;
+}
