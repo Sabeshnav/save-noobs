@@ -4,72 +4,184 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
 <body>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-  <nav class="navbar navbar-expand-sm navbar-dark primary-color" >
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script></script>
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark primary-color" style="background:#780000">
     <div class="container">
       <a href="#" class="navbar-brand mr-auto">SITE LOGO</a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ml-auto">
-              <a href="" class="nav-item nav-link active ml-auto" style="margin:10px;padding:6px;font-size:medium;">Home</a>
-              <a href="admissions.html" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">B.tech Admissions</a>
-              <a href="#" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">Life at Amrita</a>
-              <a href="#" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">FAQ</a>
+              <a href="#home" class="nav-item nav-link active ml-auto" style="margin:10px;padding:6px;font-size:medium;">Home</a>
+              <a href="#admissions" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">B.tech Admissions</a>
+              <a href="#laa" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">Life at Amrita</a>
+              <a href="#faq" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">FAQ</a>
+              <a href="#devs" class="nav-item nav-link ml-auto" style="margin:10px;padding:6px;font-size:medium;">Developers</a>
           </div>
       </div>
     </div>
 </nav>
-<div class="jumbotron jumbotron-fluid text-white text-center" style="background:#780000">
-    <div class="container">
-        <h1 class="display-4">All about Amrita university</h1>
-        <p class="lead">A student's perspective..</p>
-    </div>
-</div>
-    <div class="container">
-      <p class="lead">This site is developed in the motive to help our juniors in joining <a href="https://www.amrita.edu/">Amrita University </a>and enjoy learning with us.
-      We almost wrote about every doubt students get while joining a graet institution like Amrita. Everything here is a student's perspective.
-      </p>
-      <p class="text-right mt-5">With love</p>
-      <div class="float-right">
-        <div class="row">
-          <div class="col mt-5">
-            <div class="card float-right border-secondary mb-3" style="width: 18rem;">
-              <img class="card-img-top" src="images/developers/sabeshnav.jpg" alt="Card image cap">
-              <div class="card-body text-secondary">
-                <h5 class="card-title">Sabeshnav M</h5>
-                <p class="card-text">A Btech-ECE student.<br>Developer.<br>Actor.</p>
+  <div class="jumbotron jumbotron-fluid text-white text-center mt-3" style="background:#780000" id="home">
+      <div class="container">
+          <h2 class="display-4">All about Amrita university</h2>
+          <p class="lead">A student's perspective..</p>
+      </div>
+  </div>
+      <div class="container">
+        <p class="lead">This site is developed in the motive to help our juniors in joining <a href="https://www.amrita.edu/">Amrita University </a>and enjoy learning with us.
+        We almost wrote about every doubt students get while joining a graet institution like Amrita. Everything here is a student's perspective.
+        </p>
+      </div>
+      <div>
+        <div class="jumbotron jumbotron-fluid text-white text-center mb-0" style="background:#780000;" id="admissions">
+            <div class="container">
+                <h4 class="display-5">B.tech Admissions</h4>
+            </div>
+        </div>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>SAT Scores Accepted for Undergraduate Admissions​!!</strong><a href="https://www.amrita.edu/admissions/sat"> Read more.</a>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      </div>
+
+          <div class="container text-center py-4" style="background:#ffe6e6">
+            <h3 class="display-5">Amrita Engineering Entrance Examination</h3>
+          <p class="lead">Phase 1 : July 11, 12, 2020<br>Phase 2 : July 24, 25, 26, 2020<br>Slot booking will start on June 15, 2020<br>Last Date to Apply : June 30, 2020</p>
+          <a class="btn btn-dark" href="https://aoap.amrita.edu/ampcbe/index/" role="button">Apply now!</a>
+        </div>
+        <div class="container py-3 mt-2" style="background:#f5ffa8;">
+          <p><strong>Admission to B.Tech programmes offered at Amrita Schools of Engineering – Amritapuri, Bengaluru, Coimbatore, Chennai, Amaravati* is on the basis of one of the following:</strong>
+            <br>
+            <ul>
+              <li>Rank scored in <strong>Amrita Entrance Examination - Engineering 2020</strong></li>
+              <li>Rank scored in <strong>JEE Mains 2020</strong>.</li>
+              <li>Acceptance of <strong>SAT</strong> Scores for B.tech Admissions.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="container mt-2 mb-2 py-3" style="background:#f5ffa8;">
+          <p><strong>Tips from seniors to crack AEEE :</strong>
+            <br>
+            <ul>
+              <li>Understand and study the basics of all the concepts mentioned in the <a href="https://www.amrita.edu/print/information-handbook-2020-b-tech-and-b-sc-hons-agriculture"><strong>AEEE information handbook</strong></a>.</li>
+              <li>Use <strong>NCERT</strong> textbooks for better understanding.</li>
+              <li>Though the AEEE is not as tough as the JEE, you need to workout many problems from various sources to secure good rank in AEEE.</li>
+              <li><strong>Be cool</strong> at the Examination and try answering all the questions.</li>
+              <li>Don't be afraid about the AEEE, be confident and prepare well. <strong>Can't wait to see you in our campus!. All the very best!!</strong></li>
+            </ul>
+          </p>
+        </div>
+        <div class="container mb-3 py-3" style="background:#f5ffa8;">
+          <p><strong>Eligibility for AEEE :</strong>
+            <br>
+            <ul>
+              <li><strong>Age :</strong> Candidates, whose date of birth falls on or after July 1, 1999.</li>
+              <li><strong>Educational Qualification :</strong> A pass in 10 + 2 (Class XII) or its equivalent examination with minimum 60% aggregate of marks in Mathematics, Physics and Chemistry and with not less than 55% individually in each of these three subjects.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="container text-center pt-2 pb-2 mb-3" style="background:#ffe6e6">
+          <p>For more information about Admission process visit Amrita university's official <a href="https://www.amrita.edu/admissions/btech-2020">Admissions webpage</a>.</p>
+        </div>
+        <div class="jumbotron jumbotron-fluid text-white text-center" style="background:#780000;" id="faq">
+            <div class="container">
+                <h4 class="display-5">FAQ</h4>
+            </div>
+        </div>
+        <div class="container" id="accordion">
+          <div class="card">
+            <div class="card-header mb-0 collapsed" id="q1" data-toggle="collapse" data-target="#a1" aria-expanded="false" aria-controls="a1" style="background:#ffe6e6">
+                <h4 class="display-5">What's it like to be a first-year student here?</h4><p class="text-center"><i class="arrow down"></i></p>
+            </div>
+            <div id="a1" class="collapse" aria-labelledby="q1" data-parent="#accordion">
+              <div class="card-body">
+                We have always enjoyed the days when we were in the very first year. The seniors were so sweet to us and they helped us out in all hard situations.
+                 The university holds strict rules against ragging, so you won't find any kind of difficulties as a first year student.
               </div>
             </div>
           </div>
-          <div class="col mt-5">
-            <div class="card float-right border-secondary mb-3" style="width: 18rem;">
-              <img class="card-img-top" src="E:\1st Year Photos/DSC05950.jpg" alt="Card image cap">
-              <div class="card-body text-secondary">
-                <h5 class="card-title">Akash T</h5>
-                <p class="card-text">Pursuing B.Tech ECE.<br>Web Developer.</p>
+          <div class="card mt-2">
+            <div class="card-header mb-0 collapsed" id="q2" data-toggle="collapse" data-target="#a2" aria-expanded="false" aria-controls="a2" style="background:#ffe6e6">
+                <h4 class="display-5">What's it like to be a first-year student here?</h4><p class="text-center"><i class="arrow down"></i></p>
+            </div>
+            <div id="a2" class="collapse" aria-labelledby="q2" data-parent="#accordion">
+              <div class="card-body">
+                We have always enjoyed the days when we were in the very first year. The seniors were so sweet to us and they helped us out in all hard situations.
+                 The university holds strict rules against ragging, so you won't find any kind of difficulties as a first year student.
               </div>
             </div>
           </div>
-          <div class="col mt-5">
-            <div class="card float-right border-secondary mb-3" style="width: 18rem;">
-              <img class="card-img-top" src="images/developers/sabeshnav.jpg" alt="Card image cap">
-              <div class="card-body text-secondary">
-                <h5 class="card-title">your name</h5>
-                <p class="card-text">describe yourself</p>
+          <div class="card mt-2">
+            <div class="card-header mb-0 collapsed" id="q3" data-toggle="collapse" data-target="#a3" aria-expanded="false" aria-controls="a3" style="background:#ffe6e6">
+                <h4 class="display-5">What's it like to be a first-year student here?</h4><p class="text-center"><i class="arrow down"></i></p>
+            </div>
+            <div id="a3" class="collapse" aria-labelledby="q3" data-parent="#accordion">
+              <div class="card-body">
+                We have always enjoyed the days when we were in the very first year. The seniors were so sweet to us and they helped us out in all hard situations.
+                 The university holds strict rules against ragging, so you won't find any kind of difficulties as a first year student.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4 mt-2">
+            <div class="card-header mb-0 collapsed" id="q4" data-toggle="collapse" data-target="#a4" aria-expanded="false" aria-controls="a4" style="background:#ffe6e6">
+                <h4 class="display-5">What's it like to be a first-year student here?</h4><p class="text-center"><i class="arrow down"></i></p>
+            </div>
+            <div id="a4" class="collapse" aria-labelledby="q4" data-parent="#accordion">
+              <div class="card-body">
+                We have always enjoyed the days when we were in the very first year. The seniors were so sweet to us and they helped us out in all hard situations.
+                 The university holds strict rules against ragging, so you won't find any kind of difficulties as a first year student.
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="jumbotron jumbotron-fluid text-white text-center mb-0" style="background:#780000;" id="devs">
+            <div class="container">
+                <h4 class="display-5">Developers</h4>
+            </div>
+        </div>
+        <div class="container">
+          <p class="text-right mt-5">With love</p>
+          <div class="float-right">
+          <div class="row">
+            <div class="col mt-5">
+              <div class="card float-right border-secondary mb-3" style="width: 13rem;">
+                <img class="card-img-top" src="images/developers/sabeshnav.jpg" alt="Card image cap">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">Sabeshnav M</h5>
+                  <p class="card-text">A Btech-ECE student.<br>Developer.<br>Actor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mt-5">
+              <div class="card float-right border-secondary mb-3" style="width: 13rem;">
+                <img class="card-img-top" src="E:\1st Year Photos/DSC05950.jpg" alt="Card image cap">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">Akash T</h5>
+                  <p class="card-text">Pursuing B.Tech ECE.<br>Web Developer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mt-5">
+              <div class="card float-right border-secondary mb-3" style="width: 13rem;">
+                <img class="card-img-top" src="images/developers/sabeshnav.jpg" alt="Card image cap">
+                <div class="card-body text-secondary">
+                  <h5 class="card-title">your name</h5>
+                  <p class="card-text">describe yourself</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
     </body>
 </html>
